@@ -4,16 +4,21 @@
 
 import logging
 import datetime
+import sqlalchemy
+
 
 logging.basicConfig(filename="logfile.log", level=logging.DEBUG)
 LOGGING = logging.getLogger()
 
+new_customer = False
+
 class User():
-    def __init__(self,name,age,pin):
+    def __init__(self,name,age,pin,balance):
         ''' Initialize a users traits'''
         self.name = name
         self.age = age
         self.pin = pin
+        self.balance = balance
         
     def show_details(self):
         ''' Print details to terminal'''
@@ -21,19 +26,22 @@ class User():
         print("Name: ", self.name)
         print("Age: ",self.age)
         print("Pin: ", self.pin)
+        print("Account balance: ${:0.2f}".format(self.balance))
+
 
 
 class Bank(User):
 
-    def __init__(self,name,age,pin):
+    def __init__(self,name,age,pin,balance):
         ''' Initialize a users traits'''
-        super().__init__(name,age,pin)
-        self.balance = 100
+        super().__init__(name,age,pin,balance)
 
     def view_balance(self):
         '''Show balace and details of individual'''
         self.show_details()
-        print("Account balance: ${:0.2f}".format(self.balance))
+
+    def get_balance(self):
+        return self.balance
 
     def deposit(self):
         ''' Deposits int into variable balance
@@ -55,7 +63,7 @@ class Bank(User):
 
         except:
             LOGGING.error("Error at {}".format(datetime.datetime.now()),exc_info=1)
-            print(e,"Enter a positive integer")
+            print("Enter a positive integer")
             Bank.deposit(self)
             
 

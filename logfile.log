@@ -1,0 +1,345 @@
+ERROR:root:Error at 2022-03-01 18:26:42.343164
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 50, in deposit
+    raise ValueError
+ValueError
+ERROR:root:Error at 2022-03-01 18:58:31.651445
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 55, in __init__
+    self.balance = bank.Bank()
+TypeError: __init__() missing 4 required positional arguments: 'name', 'age', 'pin', and 'balance'
+ERROR:root:Error at 2022-03-02 08:42:07.454435
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 79, in __init__
+    customer.view_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 44, in view_balance
+    print("Account balance: ${:0.2f}".format(self.balance))
+ValueError: Unknown format code 'f' for object of type 'str'
+ERROR:root:Error at 2022-03-02 08:42:10.508138
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 79, in __init__
+    customer.view_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 44, in view_balance
+    print("Account balance: ${:0.2f}".format(self.balance))
+ValueError: Unknown format code 'f' for object of type 'str'
+ERROR:root:Error at 2022-03-02 08:42:11.830332
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 79, in __init__
+    customer.view_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 44, in view_balance
+    print("Account balance: ${:0.2f}".format(self.balance))
+ValueError: Unknown format code 'f' for object of type 'str'
+ERROR:root:Error at 2022-03-02 09:09:39.690832
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 77, in withdraw
+    withdrawl = int(input('How much would you like to withdraw?: '))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:Error at 2022-03-02 09:17:50.660451
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 09:19:08.757758
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 09:19:10.231292
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 09:19:10.765522
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 09:19:11.251269
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 09:19:11.780752
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 56, in deposit
+    raise ValueError
+ValueError
+ERROR:root:Error at 2022-03-02 09:19:12.612454
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 56, in deposit
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 56, in deposit
+    raise ValueError
+ValueError
+ERROR:root:Error at 2022-03-02 09:19:35.096417
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 56, in deposit
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 56, in deposit
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank.py", line 53, in deposit
+    self.balance = self.balance + deposit_val
+AttributeError: 'Bank' object has no attribute 'balance'
+ERROR:root:Error at 2022-03-02 15:37:59.683125
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 53, in __init__
+    self.age = int(input("Enter your age: "))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:Error at 2022-03-02 17:39:23.503455
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:41:48.187425
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:44:29.484823
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:44:36.806111
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:44:52.809901
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:46:23.387938
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 57, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:54:07.178815
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 89, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 67, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 59, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:54:36.232875
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 89, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 67, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 59, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 17:57:13.671753
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 85, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 63, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 59, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 18:04:11.846856
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 86, in __init__
+    self.balance = MySql(self.name,self.age,self.pin,update=False,balance=True)
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 64, in __init__
+    get_balance()
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 59, in get_balance
+    if result in connection.execute(stmt):
+NameError: name 'result' is not defined
+ERROR:root:Error at 2022-03-02 18:43:36.357181
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 105, in __init__
+    x = int(input("Enter a number from the selections above: "))
+ValueError: invalid literal for int() with base 10: ''
