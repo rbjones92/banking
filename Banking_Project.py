@@ -23,10 +23,12 @@ class MySql():
 
         engine = sqlalchemy.create_engine('mysql+pymysql://root:Ss451608!@127.0.0.1/banking_data')
         connection = engine.connect()
+        '''
         Session = sessionmaker()
         Session.configure(bind=engine)
         session = Session()
-        
+        '''
+
         meta = sqlalchemy.MetaData()
 
         bank_table = sqlalchemy.Table(
@@ -50,15 +52,15 @@ class MySql():
 
 
         def get_balance():
+            global BALANCE
+            BALANCE = 0
             stmt = select([bank_table])
-
             stmt = stmt.where(and_(bank_table.columns.pin == pin ,bank_table.columns.name == name))
 
             for result in connection.execute(stmt):
-                global BALANCE 
                 BALANCE = result.balance
                 
-        if balance == True and balance != int():
+        if balance == True:
             get_balance()
 
 
