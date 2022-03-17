@@ -343,3 +343,13 @@ Traceback (most recent call last):
   File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\Banking_Project.py", line 105, in __init__
     x = int(input("Enter a number from the selections above: "))
 ValueError: invalid literal for int() with base 10: ''
+ERROR:root:Error at 2022-03-17 14:27:12.107645
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank_init.py", line 26, in initialization
+    self.check_user()
+TypeError: check_user() missing 1 required positional argument: 'user_id'
+ERROR:root:Error at 2022-03-17 14:27:30.172721
+Traceback (most recent call last):
+  File "c:\Users\Bob\Desktop\SpringBoard\Python_Projects\projects\banking_project\bank_init.py", line 26, in initialization
+    self.check_user()
+TypeError: check_user() missing 1 required positional argument: 'user_id'
